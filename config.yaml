@@ -1,0 +1,18 @@
+# Project Configuration
+
+paths:
+  raw_data: "data/raw/creditcard.csv"
+  processed_data: "data/processed/creditcard_processed.csv"
+  models_dir: "models/"
+  log_dir: "logs/"
+
+data:
+  test_size: 0.2
+  random_state: 42
+  target_col: "Class"
+
+model:
+  isolation_forest:
+    contamination: 0.0017 # roughly 492 frauds / 284807 total
+  xgboost:
+    scale_pos_weight: 577 # roughly 284315 negatives / 492 positives

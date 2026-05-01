@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+.npm/
+
+# Logs and Data
+logs/
+*.log
+data/
+*.csv
+*.json
+*.sqlite3
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
